@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <script>
+      var x;
+      x=getQueryString();//Current URL default
+      console.log(x);
+      x=getQueryString("http://sample/index.html?a=apple&b=banana&c=cat&d&e=effort&a=anonymous#link");
+      console.log(x);
+    </script>
+  </body>
+</html>
