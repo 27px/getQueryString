@@ -9,7 +9,6 @@ function getQueryString(url=window.location.href)//Default value current URL
     if(x.length>1)
     {
       var qstring=x[1];
-      var variables=qstring.split("&");//Seperates Keys and Values
       var variables=qstring.split("&");//Seperates Key and Values
       var result=new Array();
       variables.map(function(a){
