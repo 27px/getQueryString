@@ -26,13 +26,11 @@ function getQueryString(url=window.location.href)//Default value current URL
     }
     else
     {
-      var result=new Array();
-      return result;
+      return [];
     }
   }
   else
   {
-    var result=new Array();
-    return result;
+    return [];
   }
 }
